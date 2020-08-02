@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/likeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:background="#141219"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvplaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="60px"
+        android:layout_marginBottom="30dp"
+        android:text="Like"
+        android:textColor="#F1ECEC"
+        android:textSize="22sp"
+        app:fontFamily="@font/brono_regular" />
+
+    <ListView
+        android:id="@+id/listPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_weight="1" />
+</LinearLayout>
